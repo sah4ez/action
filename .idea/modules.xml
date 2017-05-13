@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/action.iml" filepath="$PROJECT_DIR$/action.iml" />
+      <module fileurl="file://$PROJECT_DIR$/addAction/addAction.iml" filepath="$PROJECT_DIR$/addAction/addAction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beans/beans.iml" filepath="$PROJECT_DIR$/beans/beans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ear/ear.iml" filepath="$PROJECT_DIR$/ear/ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpaentity/jpaentity.iml" filepath="$PROJECT_DIR$/jpaentity/jpaentity.iml" />
+    </modules>
+  </component>
+</project>

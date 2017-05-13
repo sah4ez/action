@@ -1,0 +1,14 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="1.0">
+
+  <persistence-unit name="action-unit">
+    <jta-data-source>actionSource</jta-data-source>
+    <non-jta-data-source>actionSourceUnmanaged</non-jta-data-source>
+    <class>com.github.sah4ez.ejb.Action</class>
+    <class>com.github.sah4ez.ejb.User</class>
+    <class>com.github.sah4ez.beans.api.ActionsLocal</class>
+
+    <properties>
+      <property name="openjpa.jdbc.SynchronizeMappings" value="buildSchema(ForeignKeys=true)"/>
+    </properties>
+  </persistence-unit>
+</persistence>

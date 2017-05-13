@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="jpaentity:ejb">
+    <output-path>$PROJECT_DIR$/jpaentity/target</output-path>
+    <root id="archive" name="jpaentity-1.0-SNAPSHOT.jar">
+      <element id="artifact" artifact-name="jpaentity:ejb exploded" />
+    </root>
+  </artifact>
+</component>

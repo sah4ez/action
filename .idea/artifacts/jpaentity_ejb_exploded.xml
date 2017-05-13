@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="jpaentity:ejb exploded">
+    <output-path>$PROJECT_DIR$/jpaentity/target/jpaentity-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jpaentity/ejb/EJB" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/jpaentity/target/jpaentity-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="jpaentity" />
+    </root>
+  </artifact>
+</component>

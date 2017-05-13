@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="addAction" />
+        <module name="beans" />
+        <module name="ear" />
+        <module name="jpaentity" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="action" target="1.8" />
+      <module name="add" target="1.5" />
+      <module name="addAction" target="1.8" />
+      <module name="allAction" target="1.8" />
+      <module name="beans" target="1.8" />
+      <module name="ear" target="1.8" />
+      <module name="ejb" target="1.8" />
+      <module name="jpaentity" target="1.8" />
+      <module name="servlet" target="1.5" />
+      <module name="servlets" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
