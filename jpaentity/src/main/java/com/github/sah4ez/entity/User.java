@@ -1,21 +1,21 @@
-package com.github.sah4ez.ejb;
+package com.github.sah4ez.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
 
 /**
  * Created by aleksandr on 08.05.17.
  */
 @Entity
+@Table(name = "user")
 public class User implements Serializable{
+    private static final long serialVersionUID = 3650142246777179368L;
     private Long id;
     private String name;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", updatable = false, nullable = false)
     public Long getId() {
         return id;
     }
@@ -24,6 +24,7 @@ public class User implements Serializable{
         this.id = id;
     }
 
+    @Column(name = "name")
     public String getName() {
         return name;
     }

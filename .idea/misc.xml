@@ -17,6 +17,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/allAction/pom.xml" />
+        <option value="$PROJECT_DIR$/beans/pom.xml" />
         <option value="$PROJECT_DIR$/servlets/pom.xml" />
       </set>
     </option>

@@ -46,9 +46,10 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.spec.javax.el:jboss-el-api_2.2_spec:1.0.4.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.spec.javax.servlet:jboss-servlet-api_3.0_spec:1.0.2.Final" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:1.0.0.Final" level="project" />
-    <orderEntry type="module" module-name="beans" scope="PROVIDED" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.github.sah4ez:beans:ejb:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: javax:javaee-api:7.0" level="project" />
     <orderEntry type="library" name="Maven: com.sun.mail:javax.mail:1.5.0" level="project" />
     <orderEntry type="library" name="Maven: javax.activation:activation:1.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: postgresql:postgresql:9.1-901-1.jdbc4" level="project" />
   </component>
 </module>

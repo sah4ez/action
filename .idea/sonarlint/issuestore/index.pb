@@ -38,3 +38,8 @@ d
 4addAction/src/main/java/com/github/sah4ez/Forge.java,f/5/f5195db3687d463d7dfe483f9f8f2a26f1afcf54
 j
 :addAction/src/main/java/com/github/sah4ez/web/fffffff.java,9/d/9d47064177cc93db5dd7c6acd6f6d1be2f6b804b
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+i
+9jpaentity/src/main/java/com/github/sah4ez/ejb/Action.java,d/4/d44a56271c85f47755c39674786f6d402d258a1a

@@ -11,13 +11,11 @@ import java.io.IOException;
 public class fffffff extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().println("<html><title>HI</title><body>Hello world!</body></html>");
-        System.out.println("fsdfss11111111111111111111");
     }
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().println("<html><title>HI</title><body>11Hello world!</body></html>");
-        System.out.println("22222222222fsdfss11111111111111111111");
+        System.out.println(req.getParameter("id"));
+        req.getRequestDispatcher("addAction.jsp").forward(req, resp);
     }
 }
